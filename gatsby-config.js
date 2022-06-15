@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 const config = require('./src/utils/config.js');
 
 module.exports = {
