@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link } from 'gatsby';
 import { Button, Subtitle, Heading } from './elements';
 
 const Container = styled.div`
@@ -17,7 +17,9 @@ const HomeHero = () => (
       <Heading white className="text-3xl sm:text-6xl font-bold pb-4">
         Start your day with a black Coffee
       </Heading>
-      <Button>BUY NOW</Button>
+      <Link to="/contact">
+        <Button>BUY NOW</Button>
+      </Link>
     </div>
   </Container>
 );
