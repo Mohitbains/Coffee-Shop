@@ -11,7 +11,7 @@ const Container = styled.div`
 `;
 
 const Footer = () => (
-  <Container className="py-16">
+  <Container className="py-18">
     <MainContainer className="block sm:flex white py-40">
       <div className="w-full sm:w-2/5 pr-12 pt-8">
         <Subtitle className="text-xl font-semibold font-hairline">
@@ -20,10 +20,6 @@ const Footer = () => (
         <Subtitle className="font-hairline leading-tight pt-8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore dolore.
-        </Subtitle>
-        <Subtitle className="font-hairline leading-tight pt-8">
-          Copyright ©2019 All rights reserved | This template is made with by
-          Colorlib
         </Subtitle>
       </div>
       <div className="w-full sm:w-2/5 pr-12 pt-8">
