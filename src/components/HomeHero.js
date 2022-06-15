@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import { Button, Subtitle, Heading } from './elements';
 
 const Container = styled.div`
-  background: url(https://colorlib.com/preview/theme/coffee/img/header-bg.jpg);
+  background: url('https://colorlib.com/preview/theme/coffee/img/header-bg.jpg');
   background-size: cover;
 `;
 
