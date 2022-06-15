@@ -8,14 +8,14 @@ const Socialicons = [
   {
     id: 1,
     name: 'fab fa-instagram',
-    link: 'https://www.instagram.com/__vishal_00/?hl=en',
+    link: '#',
   },
   {
     id: 2,
     name: 'fab fa-facebook-f',
-    link: 'https://m.facebook.com/profile.php?ref=bookmarks',
+    link: '#',
   },
-  { id: 3, name: 'fab fa-twitter', link: 'https://twitter.com/Vishal13985265' },
+  { id: 3, name: 'fab fa-twitter', link: '#' },
 ];
 
 const Social = () => (
